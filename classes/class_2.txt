@@ -1,0 +1,15 @@
+Class Waiter
+
+Attributes
+name: (string)
+active: (boolean)
+tables_monitored: (array)
+start_year: (integer)
+service_rating: (integer)
+
+Methods:
+change_table_set: updates tables monitored to new set of tables
+clock_in: changes 'active' to true
+clock_out: changes 'active' to false
+calculate_years_employed: looks at current year and subtracts start_year
+spill_food: reduces service_rating

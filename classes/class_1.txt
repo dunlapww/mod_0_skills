@@ -14,5 +14,5 @@ Methods
 place_order (populates food_order with patrons food order)
 fill_water (increases waterglass_level to .95)
 spill_food (changes happy_customer from true to false)
-move_customer (changes table_number)
+move_customer (takes argument of new table number and updates table_number to new value)
 change_reservation (changes reservation_time)

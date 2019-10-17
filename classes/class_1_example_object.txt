@@ -1,0 +1,19 @@
+
+Class customer
+Instance: customer_1
+
+Attributes
+name: Will
+reservation_time: 10/28/2019 18:00
+food_order: [salad, hamburger, fries]
+waterglass_level: .5
+happy_customer: true
+table_number: 14
+
+
+Methods
+place_order (adds salad, hamburger, and fries to the null array)
+fill_water (increases waterglass_level to .95)
+spill_food (changes happy_customer from true to false)
+move_customer(18) (updates table number from 14 to 18)
+change_reservation(11/1/2019 19:00) (updates reservation time to 11/1/2019 19:00)
