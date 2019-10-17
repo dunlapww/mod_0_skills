@@ -1,0 +1,18 @@
+Class customer
+
+
+Attributes
+name (string)
+reservation_time (date/time)
+food_order (array)
+waterglass_level (float)
+happy_customer (boolean)
+table_number (integer)
+
+
+Methods
+place_order (populates food_order with patrons food order)
+fill_water (increases waterglass_level to .95)
+spill_food (changes happy_customer from true to false)
+move_customer (changes table_number)
+change_reservation (changes reservation_time)
